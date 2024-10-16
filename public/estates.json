@@ -9,7 +9,7 @@
       "area": 3500,
       "location": "Beverly Hills, CA",
       "facilities": ["living room", "swimming pool", "kitchen", "garage", "garden"],
-      "image": "https://example.com/images/villa1.jpg"
+      "image": "https://i.ibb.co.com/XCzcxCT/res1.jpg"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "area": 1200,
       "location": "New York, NY",
       "facilities": ["living room", "kitchen", "balcony", "gym"],
-      "image": "https://example.com/images/apartment1.jpg"
+      "image": "https://i.ibb.co.com/RHNTNFr/res2A.jpg"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "area": 1800,
       "location": "Miami, FL",
       "facilities": ["living room", "swimming pool", "kitchen", "ocean view"],
-      "image": "https://example.com/images/condo1.jpg"
+      "image": "https://i.ibb.co.com/4YgpMHM/res3.jpg"
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
       "area": 2400,
       "location": "Austin, TX",
       "facilities": ["living room", "kitchen", "garage", "backyard", "playground"],
-      "image": "https://example.com/images/home1.jpg"
+      "image": "https://i.ibb.co.com/RbQHJkd/res4.jpg"
     }
   ]
   

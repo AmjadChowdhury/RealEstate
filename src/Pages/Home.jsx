@@ -11,7 +11,7 @@ const Home = () => {
     },[])
     return (
         <div>
-            <div>
+            <div className="grid lg:grid-cols-3 gap-5">
                 {
                     estates.map(estate => <Estate key={estate.id} estate={estate}></Estate>)
                 }

@@ -3,6 +3,7 @@ import Root from "../Pages/Root";
 import Home from "../Pages/Home";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
+import EstateDetails from "../Pages/EstateDetails";
 
 const Router = createBrowserRouter([
     {
@@ -20,6 +21,11 @@ const Router = createBrowserRouter([
             {
                 path : "/register",
                 element : <Register></Register>
+            },
+            {
+                path : "/estate/:esId",
+                loader : () => fetch('estates.json'),
+                element : <EstateDetails></EstateDetails>
             }
         ]
     }

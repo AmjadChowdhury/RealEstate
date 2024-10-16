@@ -1,0 +1,40 @@
+[
+    {
+      "category": "Single-family homes",
+      "description": "Detached homes designed to house a single family, often with a private yard."
+    },
+    {
+      "category": "Townhouses",
+      "description": "Multi-floor homes that share one or more walls with adjacent properties, often with small outdoor spaces."
+    },
+    {
+      "category": "Apartments",
+      "description": "Units in a larger building, typically rented, that share common walls, floors, and ceilings with neighboring units."
+    },
+    {
+      "category": "Student housing",
+      "description": "Housing specifically designed for students, often located near educational institutions, including dormitories or shared apartments."
+    },
+    {
+      "category": "Senior living communities",
+      "description": "Residences designed for seniors, offering various levels of care from independent living to assisted living and memory care."
+    },
+    {
+      "category": "Vacation rentals",
+      "description": "Short-term rental homes or apartments typically rented for vacations or short stays, often fully furnished and located in popular tourist destinations."
+    },
+    {
+      "category": "Duplex/Triplex",
+      "description": "Residential buildings divided into two or three separate units, which can be rented or owned."
+    },
+    {
+      "category": "Co-living spaces",
+      "description": "Shared housing arrangements with common areas and private bedrooms, often offering a community-based living environment."
+    },
+    {
+      "category": "Modular homes",
+      "description": "Pre-fabricated homes that are manufactured off-site and then assembled on-site."
+    }
+  ]
+  
+  

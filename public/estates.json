@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Luxury Modern Villa",
+      "segment_name": "Residential",
+      "description": "A spacious 5-bedroom villa with an open floor plan, modern interiors, and a private garden.",
+      "price": 1500000,
+      "status": "sale",
+      "area": 3500,
+      "location": "Beverly Hills, CA",
+      "facilities": ["living room", "swimming pool", "kitchen", "garage", "garden"],
+      "image": "https://example.com/images/villa1.jpg"
+    },
+    {
+      "id": 2,
+      "estate_title": "Cozy Downtown Apartment",
+      "segment_name": "Residential",
+      "description": "A cozy 2-bedroom apartment located in the heart of the city with great connectivity and amenities.",
+      "price": 750000,
+      "status": "sale",
+      "area": 1200,
+      "location": "New York, NY",
+      "facilities": ["living room", "kitchen", "balcony", "gym"],
+      "image": "https://example.com/images/apartment1.jpg"
+    },
+    {
+      "id": 3,
+      "estate_title": "Beachfront Condo",
+      "segment_name": "Residential",
+      "description": "A beautiful 3-bedroom condo with panoramic ocean views and direct beach access.",
+      "price": 950000,
+      "status": "sale",
+      "area": 1800,
+      "location": "Miami, FL",
+      "facilities": ["living room", "swimming pool", "kitchen", "ocean view"],
+      "image": "https://example.com/images/condo1.jpg"
+    },
+    {
+      "id": 4,
+      "estate_title": "Suburban Family Home",
+      "segment_name": "Residential",
+      "description": "A spacious 4-bedroom family home with a large backyard, perfect for kids and pets.",
+      "price": 850000,
+      "status": "rent",
+      "area": 2400,
+      "location": "Austin, TX",
+      "facilities": ["living room", "kitchen", "garage", "backyard", "playground"],
+      "image": "https://example.com/images/home1.jpg"
+    }
+  ]
+  

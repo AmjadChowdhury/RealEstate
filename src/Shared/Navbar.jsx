@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import  "./Navbar.css"
 
 
 const Navbar = () => {
@@ -17,9 +18,8 @@ const Navbar = () => {
        
   }
   const links = <>
-      <NavLink to="/"><li>Home</li></NavLink>
-      <NavLink to="/categories"><li>Categories</li></NavLink>
-      <NavLink to="/"><li>Contact</li></NavLink>
+      <NavLink to="/"><li className="btn bg-[#0000ff12] md:text-xl md:mr-1 mb-1 sm:w-full">Home</li></NavLink>
+      <NavLink to="/categories"><li className="btn bg-[#0000ff12] md:text-xl sm:w-full">Categories</li></NavLink>
     </>
   return (
     <div className="navbar bg-base-100">
@@ -48,7 +48,7 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">RealEstate</a>
+        <a className="btn btn-ghost text-xl text-blue-950 font-bold">RealEstate</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -58,8 +58,13 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         {
-          user ? <button onClick={handleLogOut} className="btn">LogOut</button> :
-                 <Link to="/login"><button className="btn">LogIn</button></Link>
+          user ? <div className="flex items-center gap-1">
+            <div className="w-10 h-10 rounded-lg">
+              <img className="w-full h-full" src={user?.photoURL} alt="" />
+            </div>
+            <button onClick={handleLogOut} className="btn bg-red-400 text-white">LogOut</button>
+          </div> :
+           <Link to="/login"><button className="btn bg-blue-700 text-white">LogIn</button></Link>
         }
       </div>
     </div>

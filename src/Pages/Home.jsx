@@ -1,5 +1,6 @@
 import {  useEffect, useState } from "react";
 import Estate from "./Estate";
+import Slider from "../Shared/Slider"
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
     },[])
     return (
         <div>
+            <Slider></Slider>
             <div className="grid lg:grid-cols-3 gap-5">
                 {
                     estates.map(estate => <Estate key={estate.id} estate={estate}></Estate>)

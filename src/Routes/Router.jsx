@@ -6,6 +6,7 @@ import Register from "../Pages/Register";
 import EstateDetails from "../Pages/EstateDetails";
 import PrivateRoute from "./PrivateRoute";
 import Categories from "../Pages/Categories";
+import UpdateProfile from "../Pages/UpdateProfile";
 
 const Router = createBrowserRouter([
     {
@@ -33,6 +34,10 @@ const Router = createBrowserRouter([
                 path : "/categories",
                 loader : () => fetch('categories.json'),
                 element : <Categories></Categories>
+            },
+            {
+                path : "/update",
+                element : <UpdateProfile></UpdateProfile>
             }
         ]
     }

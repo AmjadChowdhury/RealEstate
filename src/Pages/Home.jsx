@@ -13,6 +13,9 @@ const Home = () => {
     return (
         <div>
             <Slider></Slider>
+            <div className="my-4 flex justify-center">
+               <span className="text-3xl font-extrabold text-blue-700 border-b-4 border-b-blue-950 rounded-b-lg">Residential</span>
+            </div>
             <div className="grid lg:grid-cols-3 gap-5">
                 {
                     estates.map(estate => <Estate key={estate.id} estate={estate}></Estate>)

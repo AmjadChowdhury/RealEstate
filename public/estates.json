@@ -21,7 +21,7 @@
       "area": 1200,
       "location": "New York, NY",
       "facilities": ["living room", "kitchen", "balcony", "gym"],
-      "image": "https://i.ibb.co.com/RHNTNFr/res2A.jpg"
+      "image": "https://i.ibb.co.com/CnS0Xkq/res2AA.jpg"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "area": 1800,
       "location": "Miami, FL",
       "facilities": ["living room", "swimming pool", "kitchen", "ocean view"],
-      "image": "https://i.ibb.co.com/4YgpMHM/res3.jpg"
+      "image": "https://i.ibb.co.com/vZTfk4z/res3AA.jpg"
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
       "area": 2400,
       "location": "Austin, TX",
       "facilities": ["living room", "kitchen", "garage", "backyard", "playground"],
-      "image": "https://i.ibb.co.com/RbQHJkd/res4.jpg"
+      "image": "https://i.ibb.co.com/kmBNYMm/res4AA.jpg"
     }
   ]
   

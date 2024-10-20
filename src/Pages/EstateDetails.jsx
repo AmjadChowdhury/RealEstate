@@ -28,7 +28,7 @@ const EstateDetails = () => {
           <img className="w-full h-full" src={image} alt="Residential" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title font-extrabold text-xl text-blue-700">
+          <h2 className="card-title font-extrabold text-2xl text-blue-700">
             {estate_title}
           </h2>
           <p className="text-xl font-semibold">{description}</p>
@@ -37,7 +37,7 @@ const EstateDetails = () => {
           <p className="text-xl font-bold flex items-center"><IoLocationOutline className="text-xl mr-1"></IoLocationOutline><span className="font-extrabold mr-1">{location}</span></p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             {
-                facilities.map(fac => <p className="font-semibold border-2 p-2 rounded-lg bg-[#0000ffAC] text-white">{fac}</p>)
+                facilities.map(fac => <p className="font-semibold border-2 p-2 rounded-lg bg-[#0000ffAC] text-white text-center">{fac}</p>)
             }
           </div>
         </div>

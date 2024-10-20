@@ -24,7 +24,7 @@ const Estate = ({ estate }) => {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title font-bold text-xl">
+          <h2 className="card-title font-extrabold text-xl">
             {estate_title}
             <div className={`${status == 'sale' ? 'bg-blue-700' : 'bg-purple-700'} badge text-white`}>{status}</div>
           </h2>

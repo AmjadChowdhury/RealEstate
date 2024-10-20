@@ -18,9 +18,9 @@ const Navbar = () => {
        
   }
   const links = <>
-      <NavLink className="md:mr-1" to="/"><li className="btn bg-[#0000ff12] md:text-xl mb-1 sm:w-full">Home</li></NavLink>
-      <NavLink className="md:mr-1" to="/categories"><li className="btn bg-[#0000ff12] md:text-xl sm:w-full">Categories</li></NavLink>
-      {user && <NavLink to="/update"><li className="btn bg-[#0000ff12] md:text-xl sm:w-full">UpdateProfile</li></NavLink>}
+      <NavLink className="md:mr-1" to="/"><li className="btn bg-[#0000ff12] md:text-xl mb-1 w-full">Home</li></NavLink>
+      <NavLink className="md:mr-1" to="/categories"><li className="btn bg-[#0000ff12] md:text-xl mb-1 w-full">Categories</li></NavLink>
+      {user && <NavLink to="/update"><li className="btn bg-[#0000ff12] md:text-xl w-full">UpdateProfile</li></NavLink>}
     </>
   return (
     <div className="navbar bg-base-100">

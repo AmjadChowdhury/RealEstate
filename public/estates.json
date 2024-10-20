@@ -46,6 +46,126 @@
       "location": "Austin, TX",
       "facilities": ["living room", "kitchen", "garage", "backyard", "playground"],
       "image": "https://i.ibb.co.com/kmBNYMm/res4AA.jpg"
+    },
+    {
+      "id": 5,
+      "estate_title": "Penthouse Suite",
+      "segment_name": "Residential",
+      "description": "A luxurious penthouse with a rooftop terrace and stunning city views.",
+      "price": 3000000,
+      "status": "sale",
+      "area": 4000,
+      "location": "San Francisco, CA",
+      "facilities": ["living room", "terrace", "kitchen", "garage", "gym"],
+      "image": "https://i.ibb.co.com/zGXqWWr/r5.jpg"
+    },
+    {
+      "id": 6,
+      "estate_title": "Rustic Country Cottage",
+      "segment_name": "Residential",
+      "description": "A charming 3-bedroom cottage with rustic interiors and a spacious garden.",
+      "price": 600000,
+      "status": "sale",
+      "area": 1800,
+      "location": "Nashville, TN",
+      "facilities": ["living room", "kitchen", "garden", "fireplace", "garage"],
+      "image": "https://i.ibb.co.com/KGXhCpX/r6.jpg"
+    },
+    {
+      "id": 7,
+      "estate_title": "Urban Loft",
+      "segment_name": "Residential",
+      "description": "A sleek loft apartment with modern finishes and large windows offering great city views.",
+      "price": 850000,
+      "status": "rent",
+      "area": 1300,
+      "location": "Chicago, IL",
+      "facilities": ["living room", "kitchen", "balcony", "gym"],
+      "image": "https://i.ibb.co.com/dDJfbnV/r7.jpg"
+    },
+    {
+      "id": 8,
+      "estate_title": "Lakehouse Retreat",
+      "segment_name": "Residential",
+      "description": "A peaceful 4-bedroom lakehouse with direct access to the lake and a private dock.",
+      "price": 1200000,
+      "status": "sale",
+      "area": 2500,
+      "location": "Lake Tahoe, NV",
+      "facilities": ["living room", "swimming pool", "kitchen", "lake view", "dock"],
+      "image": "https://i.ibb.co.com/3TbX0Yj/r8.jpg"
+    },
+    {
+      "id": 9,
+      "estate_title": "Modern Studio Apartment",
+      "segment_name": "Residential",
+      "description": "A fully-furnished studio apartment in the city center, perfect for singles or couples.",
+      "price": 400000,
+      "status": "sale",
+      "area": 600,
+      "location": "Seattle, WA",
+      "facilities": ["living room", "kitchen", "gym", "laundry"],
+      "image": "https://i.ibb.co.com/6ZwxBGx/r9.jpg"
+    },
+    {
+      "id": 10,
+      "estate_title": "Mountain Cabin",
+      "segment_name": "Residential",
+      "description": "A cozy 2-bedroom cabin nestled in the mountains, offering serene surroundings.",
+      "price": 700000,
+      "status": "rent",
+      "area": 1500,
+      "location": "Aspen, CO",
+      "facilities": ["living room", "kitchen", "fireplace", "mountain view", "garage"],
+      "image": "https://i.ibb.co.com/DYxcstF/r10.jpg"
+    },
+    {
+      "id": 11,
+      "estate_title": "Suburban Townhouse",
+      "segment_name": "Residential",
+      "description": "A well-maintained 3-bedroom townhouse with a private patio in a family-friendly neighborhood.",
+      "price": 550000,
+      "status": "sale",
+      "area": 1600,
+      "location": "Orlando, FL",
+      "facilities": ["living room", "kitchen", "garage", "patio", "playground"],
+      "image": "https://i.ibb.co.com/JqMMhRQ/r11.jpg"
+    },
+    {
+      "id": 12,
+      "estate_title": "Luxury High-Rise Apartment",
+      "segment_name": "Residential",
+      "description": "A modern 2-bedroom apartment in a luxury high-rise with access to premium amenities.",
+      "price": 1100000,
+      "status": "sale",
+      "area": 1400,
+      "location": "Los Angeles, CA",
+      "facilities": ["living room", "kitchen", "gym", "pool", "concierge"],
+      "image": "https://i.ibb.co.com/fYtqdZM/r12.jpg"
+    },
+    {
+      "id": 13,
+      "estate_title": "Historic Brownstone",
+      "segment_name": "Residential",
+      "description": "A beautifully restored 4-bedroom brownstone with original architecture and modern upgrades.",
+      "price": 1800000,
+      "status": "sale",
+      "area": 3200,
+      "location": "Boston, MA",
+      "facilities": ["living room", "kitchen", "garden", "fireplace", "garage"],
+      "image": "https://i.ibb.co.com/FXHFd0B/r13.jpg"
+    },
+    {
+      "id": 14,
+      "estate_title": "Seaside Villa",
+      "segment_name": "Residential",
+      "description": "A gorgeous 5-bedroom villa located by the sea with stunning views and private beach access.",
+      "price": 2500000,
+      "status": "rent",
+      "area": 4500,
+      "location": "Malibu, CA",
+      "facilities": ["living room", "kitchen", "ocean view", "garage", "private beach"],
+      "image": "https://i.ibb.co.com/Qm8tCDs/r14.jpg"
     }
   ]
   

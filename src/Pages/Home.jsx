@@ -5,11 +5,16 @@ import Slider from "../Shared/Slider"
 
 const Home = () => {
     const [estates,setEstates] = useState([])
+    const [showSize,setShowSize] = useState(5)
     useEffect(() => {
         fetch('estates.json')
         .then(res => res.json())
         .then(data => setEstates(data))
     },[])
+
+    const handleShowAll = () => {
+        setShowSize(estates.length)
+    }
     return (
         <div>
             <Slider></Slider>
@@ -18,8 +23,11 @@ const Home = () => {
             </div>
             <div className="grid lg:grid-cols-3 gap-5">
                 {
-                    estates.map(estate => <Estate key={estate.id} estate={estate}></Estate>)
+                    estates.slice(0,showSize).map(estate => <Estate key={estate.id} estate={estate}></Estate>)
                 }
+            </div>
+            <div className={`flex justify-center my-4 ${estates.length == showSize ? 'hidden' : ''}`}>
+                <button className="btn bg-purple-700 text-white" onClick={handleShowAll}>Show All</button>
             </div>
         </div>
     );
